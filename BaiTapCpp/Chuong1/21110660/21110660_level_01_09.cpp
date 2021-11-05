@@ -14,11 +14,11 @@ int main()
     }
     else if (a > 0)
     {
-        a = long long(a + 0.5);
+        a = (long long)(a + 0.5);
     }
     else
     {
-        a = long long(a - 0.5);
+        a = (long long)(a - 0.5);
     }
     cout << a << endl;
     return 0;
