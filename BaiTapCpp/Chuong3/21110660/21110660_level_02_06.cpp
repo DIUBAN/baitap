@@ -38,7 +38,7 @@ int main()
     cin >> a >> b >> c;
     if (a > 0 && b > 0 && c > 0)
     {
-        if ((a - b < c) && (a - c < b) && (b - c < a))
+        if ((a - b < c) && (c - a < b) && (b - c < a))
         {
             kiemTraTamGiac(a, b, c);
         }
@@ -46,7 +46,7 @@ int main()
         {
             cout << "Khong phai tam giac";
         }
-        }
+    }
     else
     {
         cout << "Khong phai do dai 3 canh cua tam giac" << endl;
