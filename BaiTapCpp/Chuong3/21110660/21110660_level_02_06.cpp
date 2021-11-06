@@ -42,7 +42,11 @@ int main()
         {
             kiemTraTamGiac(a, b, c);
         }
-    }
+        else
+        {
+            cout << "Khong phai tam giac";
+        }
+        }
     else
     {
         cout << "Khong phai do dai 3 canh cua tam giac" << endl;
