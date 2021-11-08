@@ -49,7 +49,7 @@ int main()
     }
     else
     {
-        cout << "Khong phai do dai 3 canh cua tam giac" << endl;
+        cout << "Khong phai tam giac";
     }
 
     return 0;
