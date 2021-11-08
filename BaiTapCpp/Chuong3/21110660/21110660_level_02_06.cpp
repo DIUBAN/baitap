@@ -38,7 +38,7 @@ int main()
     cin >> a >> b >> c;
     if (a > 0 && b > 0 && c > 0)
     {
-        if ((a - b < c) && (c - a < b) && (b - c < a))
+        if ((a + b > c) && (b + c > a) && (a + c > b))
         {
             kiemTraTamGiac(a, b, c);
         }
